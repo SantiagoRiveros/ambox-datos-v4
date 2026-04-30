@@ -1,0 +1,47 @@
+Este curso no es solo aprender las herramientas, es aprender a pensar como analista de datos
+
+¿Que es el analisis de datos?
+
+Es el proceso de recolectar, limpiar, transformar y analizar los datos para obtener informacion util
+y tomar decisiones
+
+
+Datos NO ES LO MISMO que informacion
+
+Datos:
+Son simplemente registros, numeros, textos, fechas, etc.
+
+Ejemplos:
+-25
+-"Buenos Aires"
+-2024-01-01
+-1500
+
+Por si solos, no dicen mucho
+
+Informacion:
+
+Producto    Ventas
+A           100
+B           200
+C           150
+
+-El producto B vende mas que el A.
+-El total vendido es 450
+-Hay 3 productos
+
+Aca ya hay analisis, esto es informacion.
+
+Los datos es lo que tenemos, la informacion es la que entedemos.
+
+
+-------------------------------------------------
+
+Tenes un negocio y queres saber:
+-Que producto se vende mas
+-Que dia vendes mas
+-Que cliente compra mas.
+
+Eso es analisis de datos.
+
+

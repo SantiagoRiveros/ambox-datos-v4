@@ -1,0 +1,85 @@
+¿QUe es el ciclo de vida?
+Son las etapas por las que se desarrolla el proceso de analisis de datos.
+
+1. Recoleccion
+2. Limpieza
+3. Analisis
+4. Visualizacion
+5. Decision
+
+
+------------------------
+Recoleccion:
+Es la etapa en la que vamos a recolectar datos, tenemos diferentes fuentes de datos
+
+-CSV (Comma Separated Values)
+-APIs (Application Programming Interface)
+-Bases de datos
+-Excel
+-Etc...
+
+
+------------------------
+
+Limpieza:
+Es la etapa, donde vamos a poner el conjunto de datos "mas prolijo".
+Esto conlleva:
+
+-Llenar datos faltantes
+-Eliminar duplicados
+-Corregir formato de dato
+-Eliminar datos irreales (ejemplo edad: 3333)
+
+------------------------
+
+Analisis:
+Esta es la etapa en la que ya se empiezan a responder preguntas
+
+-Calculos:
+            ¿Cual es el promedio de ventas? | ¿Cual es el total de ventas? | ¿Cual fue la venta mas grande?
+-Agrupaciones:
+                ¿Cuanto se vendio por categoria?
+
+Aca es donde van a encontrar:
+-Patrones
+-Relaciones
+-Comportamientos
+
+------------------------
+
+Visualizacion:
+Aca es donde transformamos los datos/informacion en representaciones visuales.
+Esta es la parte por la que muchas veces, te van a pagar.
+
+Tipos de graficos y cuando usarlos (Hay un monton mas):
+
+1. Barras: ¿Que categoria vende mas?
+2. Lineas: ¿Como cambian las ventas en el tiempo?
+3. Histograma: ¿Que edades son mas comunes?
+4. Scatter (Dispersion): ¿A mayor edad, mayor ingreso?
+5. Heatmap (mapa de calor): ¿Que datos estan relacionados?
+
+Con todo esto, van a a armar Dashboards
+
+Un dashboard es:
+Un cojunto de graficos e indicados en una pantalla
+
+------------------------
+
+Decision:
+Es la mas importante a nivel negocio.
+Es dodne decis: ¿Que hago con estos datos?
+
+Aca es dondne el analisis se vuelve util.
+Sin decision, el analisis no sirve para nada.
+
+
+------------------------
+
+
+
+
+Datos -> Analisis -> Visualizacion -> Decision.
+
+
+

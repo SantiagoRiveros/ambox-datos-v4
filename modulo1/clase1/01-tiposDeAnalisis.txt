@@ -1,0 +1,5 @@
+Tipo                Pregunta que responde               Ejemplo
+Descriptivo         ¿Que paso?                          Ventas del mes
+Diagnostico         ¿Por que paso?                      Bajaron ventas
+Predictivo          ¿Que va a pasar?                    Pronostico de ventas
+Preescriptivo       ¿Que deberia hacer?                 Estrategia proxima.
