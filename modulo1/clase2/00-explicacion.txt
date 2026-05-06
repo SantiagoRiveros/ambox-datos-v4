@@ -1,0 +1,6 @@
+Una variable es un espacio, en donde se guarda informacion/datos
+
+nombre = "Santiago"
+edad = 33
+altura = 1.64
+
