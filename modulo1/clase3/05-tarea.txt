@@ -1,0 +1,8 @@
+Función que:
+reciba lista
+devuelva mayor número
+
+muestre:
+pares
+impares
+promedio
