@@ -18,6 +18,8 @@ lista = [3, 9, 2]
 # Quiero imprimir el 9, indice 1
 print(lista[1])
 
+lista[1] = "Milanesa"
+print(lista)
 # Para acceder a un elemento, debemos utilizar corchetes, y el numero de indice
 
 

@@ -1,0 +1,13 @@
+¿Que es un condicional?
+
+Es una "estructura de control" que lo que hace es basicamente, una pregunta, segun la veracidad de la respuesta.
+Sigue un camino u otro
+
+La primera SIEMPRE es if, luego puede venir uno o varios elif, o un else
+
+el else, no puede ir en otra posicion, que no sea la ultima
+
+------------------------------------------------------
+
+Bucles (O loops):
+Que es un loop? -> Permite repetir codigo automaticamente
