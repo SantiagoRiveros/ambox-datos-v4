@@ -1,0 +1,3 @@
+Tomando en cuenta el csv del titanic, quiero que escriban brevemente, que significa cada una de las columnas.
+
+(Se vale googlear)

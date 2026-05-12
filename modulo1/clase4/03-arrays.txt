@@ -1,0 +1,27 @@
+¿Que problema tiene una lista normal?
+
+numeros = [1, 2, 3, 4]
+
+-Son mas lentas
+-Consumen mas memoria
+-No estan optimizadas (ni pensadas) para matematica
+
+Arrays:
+
+Estructuralmente son iguales a las listas, pero los arrays los crea numpy.
+Esta optimizado para lo que es calculos matematicos y analisis de datos.
+Obtenemos una velocidad de procesamiento MUY SUPERIOR.
+
+
+Contras de usar arrays:
+
+1- Todos los elementos deben ser del mismo tipo
+
+2- Los arrays son un poco menos amigables a su cambio.
+Es decir, si queremos usarlas para hacerle cambios, es mas lenta que una lista normal
+
+3- Estan pensadas casi exclusivamente para su procesamiento matematico.
+
+4- Son mas complejos de entender que las listas.
+
+5- Dependes de numpy para usarlas.

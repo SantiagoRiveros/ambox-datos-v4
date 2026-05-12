@@ -1,0 +1,12 @@
+¿Que es una libreria?
+Es un codigo que hizo otra persona/equipo y que podemos utilizar para tener mejores utilidades, por eficiencia o comodidad.
+
+Libreria                            Uso
+Numpy                               Calculos Numericos
+Pandas                              Analisis de Datos
+Matplotlib                          Graficos
+Seaborn                             Visualizacion
+
+
+¿Que vamos a ejecutar?
+pip install numpy pandas
