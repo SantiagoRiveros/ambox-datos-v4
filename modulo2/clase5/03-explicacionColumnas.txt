@@ -1,0 +1,90 @@
+-PassengerId:
+Id unico de cada pasajero
+No aporta mucha informacion sobre supervivencia pero sirve para numerar filas
+
+-Survived:
+Indica si el pasajero sobrevivio o no 
+
+valores:
+0 -> No Sobrevivio
+1 -> Sobrevivio
+
+Esta es la columna objetivo mas usada
+
+-Pclass:
+Clase del boleto del pasajero
+
+valores:
+1 -> Primera clase
+2 -> Segunda Clase
+3 -> Tercera Clase
+
+Representa nivel socioeconomico
+Generalmente:
+    1. Primera clase sobrevivio mas
+    2. Tercera clase sobrevivivo menos
+
+-Name:
+Nombre completo del pasajero
+
+Puede utilizarse para:
+    1. Extraer titulos (Mr, Mrs, Dr)
+    2. Identificar familias
+
+-Sex:
+Sexo del pasajero
+
+valores
+male -> Hombre
+female -> Mujer
+
+Fue una de las variables mas importantes -> Mujeres sobrevivieron mas.
+
+-Age:
+Edad del pasajero
+
+Tiene algunos valores nulos.
+
+Se puede analizar:
+    1. Niños vs adultos
+    2. Edades Promedio
+    3. Supervivencia por edad
+
+-SibSp:
+Cantidad de:
+    1. hermanos/as (Siblings)
+    2. esposos/as (Spouse)
+Que viajaban con el pasajero
+
+-Parch
+Cantidad de:
+    1. Padres (Parents)
+    2. Hijos (Children)
+
+-Ticket:
+Numero de Ticket
+
+Puede servir para:
+    1. Detectar grupos familiares
+    2. Tickets compartidos
+
+-Fare:
+Tarifa pagada por el pasajero
+
+En general:
+    Mas caro el pasaje -> Mas posibilidad de sobrevivir
+
+-Cabin:
+Cabina del pasajero
+
+Tiene MUCHOS valores nulos.
+
+La letra representa la seccion del barco: A, B, C, etc.
+
+-Embarked:
+Puerto dodnde subio el pasajero.
+
+Valores:
+-C: Cherbourg
+-Q: Queenstown
+-S: Southampton

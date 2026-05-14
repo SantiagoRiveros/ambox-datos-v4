@@ -1,0 +1,7 @@
+Mostrar:
+promedio edad
+cantidad por clase (De hombres y mujeres, por separado) <- Pueden googlear
+
+Filtrar:
+menores de 18
+mujeres sobrevivientes
