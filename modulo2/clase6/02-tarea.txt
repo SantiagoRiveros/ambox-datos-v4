@@ -1,0 +1,22 @@
+🔨 Ejercicio 17
+
+Mostrar promedio de edad por sexo.
+
+🔨 Ejercicio 18
+
+Mostrar promedio de tarifa por clase.
+
+🔨 Ejercicio 19
+
+Mostrar tasa de supervivencia por sexo.
+
+🔨 Ejercicio 20
+
+Mostrar tasa de supervivencia por clase.
+
+🔨 Ejercicio 21
+
+Mostrar supervivencia por:
+
+sexo
+clase social
