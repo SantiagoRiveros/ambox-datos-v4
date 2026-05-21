@@ -1,0 +1,111 @@
+Filtrado - Agrupaciones - Resumenes
+
+Filtrado
+Es basicamente, la condicion que ejercemos sobre un dataset para cambiar el contexto
+
+tabla
+
+Es la estructura completa de datos
+
+Ej:
+titanic.head()
+titanic["Sex"]
+
+
+Fila
+es cada una de las entradas
+
+Se pueden aplicar filtros, para que cada una integre el contexto
+
+
+contexto
+
+Contexto de tabla -> Refiere a todo el dataset completo
+
+Contexto de fila -> El analisis unitario de cada una de las filas
+
+titanic["Sex"] <- Esto en si no es Filtrado
+
+titanic[titanic["Sex"] == "male"] -> Aca aplicamos un filtro para que sea considerado fila por fila
+
+
+---------------------------
+
+
+Lo que intentamos resolver es -> Trabajar con datos no es solo verlos, sino poder responder preguntas como:
+
+-¿Cuantos hombres sobrevivieron?
+-¿Cual fue la edad promedio por clase?
+-¿Que grupo pago mas en promedio?
+
+1- Filtrado
+
+Seleccionar un subconjunto de datos
+
+2- Agrupaciones (groupby)
+
+Separar datos en grupos segun columnas
+
+3- Resumenes (Aggregation)
+
+aplicar funciones como:
+
+-mean()
+-sum()
+-count()
+-min(), max()
+
+----------------------
+MERGES JOINS Y CONCATENACIONES
+
+Problema real:
+En la vida real, los datos casi nunca estan todos juntos (en un solo archivo):
+-Clientes en un CSV
+-Compras en otro
+-Productos en otro
+-Usuarios en otro
+
+Entonces, el problema es que a veces el analisis nos implica usar datos de varias tablas, necesitamos "unirlas" para eso 
+
+
+3 Formas principales de combinar datos:
+-Concatenar (concat)
+pegar datasets uno debajo del otro, o al lado
+Apilar filas
+Apilar columnas
+
+
+-Merge
+Unir como en SQL, por una columna en comun.
+-relacion tipo "id"
+-Es el mas usado en data analysis
+
+-JOIN 
+similar al merge, pero orientado a indices
+
+
+----------------
+
+Cuando usar concat:
+-Unir archivos del mismo tipo
+-Unir datos tipo mensuales(Enero + Febrero)
+-Expandir Datasets
+
+---------------------
+
+
+MERGES
+Une dataframes usando una clave comun
+
+INNER JOIN:
+Solo trae coincidencias entre ambas tablas
+
+
+
+
+--------------
+
+
+Cuando vamos a usar JOINS?
+-Cuando el indice es la clave
+-Se usa menos y es menos comun que el merge
