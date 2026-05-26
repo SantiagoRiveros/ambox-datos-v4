@@ -1,0 +1,48 @@
+¿Que es Numpy?
+Es una libreria optimizada para calculos matematicos y numericos
+
+¿Porque existe?
+Porque las listas en python:
+-Son lentas
+-Consumen mas memoria
+-No estan optimizadas para matematica
+
+¿Que usa Numpy?
+Usa Arrays
+
+dataframe
+
+        columna1 columna2 columna3
+fila1
+fila2
+fila3
+fila4
+
+Es tabular, tiene filas y columnas
+
+Array:
+
+[1, 2, 3, 4] <- Es unidimensional
+
+Vos cuando hablas de un dataframe -> X fila X columna
+
+En Arrays -> Son indices
+
+Te doy una lista de DNIs
+
+[431431241, 2312312, 45453453, 123123123...]
+
+        DNI
+fila1
+fila2
+fila3
+
+Array multdimensional ->
+
+[[1, 2, 3],
+ [4, 5, 6]
+]
+
+Listas dentro de diccionarios, diccionarios, JSON,  CSV, etc, etc
+
+Los arrays SIEMPRE son numericos <--> Las listas, no

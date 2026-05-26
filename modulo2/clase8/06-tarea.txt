@@ -1,0 +1,43 @@
+Ejercicio 1
+
+Crear matriz 4x4 con números aleatorios.
+
+Mostrar:
+
+promedio
+máximo
+mínimo
+
+Ejercicio 2
+
+Crear array:
+
+números 1 al 50
+
+Mostrar:
+
+pares
+impares
+múltiplos de 5
+
+
+
+
+
+
+------------------------------
+
+Extra.
+Crear array del 1 al 100
+Mostrar:
+promedio
+mediana
+desviación estándar
+Crear matriz 5x5
+Mostrar:
+segunda fila
+tercera columna
+Generar:
+50 números aleatorios
+mostrar pares
+mostrar mayores a 50
