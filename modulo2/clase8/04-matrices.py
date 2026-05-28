@@ -15,3 +15,4 @@ print(matriz)
 print(matriz[1][1])
 
 arraySimple = np.array([1, 2, 3])
+# Esto tiene indices    0  1  2
