@@ -1,0 +1,68 @@
+SQL -> Structured Query Language -> Lenguaje Estructurado de Consultas
+
+Nosotros hasta ahora veniamos trabajando con CSV, Excel, Pandas, etc.
+
+Pero en empresas reales los datos suelen almacenarse en bases de datos.
+
+Por ejemplo:
+-Bancos
+-Hospitales
+-E-Commerce
+-Redes sociales
+
+Usan bases de datos (o Databases o DB) para almacenar millones de entradas.
+
+¿Para que sirve?
+
+Permite:
+-Crear Bases de datos
+-Crear Tablas
+-Insertar datos
+-Modificar datos
+-Consultar informacion
+
+Database ->
+Es un sistema que permite almacenar, organizar y gestionar informacion/datos de manera eficiente.
+
+Tipos de databases:
+Relacional (SQL) y No relacional (No SQL).
+
+Relacionales:
+Organizan la informacion en tablas compuestas por filas y columnas.
+Las tablas pueden relacionarse entre ellas a traves de su Foreign Key y Primary Key.
+
+Primary Key (PK) = Es una clave unica que sirve para identificar una fila de manera especifica. Es unico e irrepetible.
+Foreign Key (FK) = Es una columna, que muchas veces suele hacer mencion al PK de otra tabla, y sirve para identificar relaciones entre las tablas.
+
+Tabla CLIENTES
+id      nombre              edad
+1       Juan                30
+2       Martin              23
+3       Carla               29
+
+El ID es la PK de esta tabla.
+
+Tabla VENTAS 
+id      producto_id         cliente_id
+1       3                   2
+2       1                   2
+3       1                   1
+
+id -> PK
+producto_id, cliente_id -> FK
+
+Martin tiene 2 ventas
+Juan tiene 1 ventas
+Carla no tiene.
+
+Tabla Productos
+id      nombre          precio
+1       Velador         10000
+2       Mouse           12000
+3       Teclado         20000
+
+Sabemos que -> Martin compro un velador y un Teclado y Juan compro velador.
+
+¿Para que nos sirve que se relacionen las tablas?
+Esto da lugar al concepto de tablas "expandidas" porque a traves de los FK podemos por ejemplo, traer los clientes y sus compras.
+Es como si "Ampliaramos" la tabla que consultamos.
