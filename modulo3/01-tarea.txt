@@ -1,0 +1,23 @@
+1. Crear una DB llamada -> academia
+
+2. Crear tabla alumnos con id (INT, PK), nombre (VARCHAR), edad(INT), ciudad(VARCHAR), nota (DECIMAL)
+
+3. Insertar al menos 15 alumnos
+
+4. Mostrar todos los alumnos
+
+5. Mostrar solamente nombre y nota
+
+6. Mostrar solamente nombre y ciudad
+
+7. Alumnos mayores de 25 años
+
+8. Alumnos menores de 18.
+
+9. Alumnos con nota mayor a 8
+
+10. Alumnos con nota menor a 6
+
+11. Mostrar alumnos de Buenos aires.
+
+12. Mostrar alumnos que NO sean de Buenos Aires.
