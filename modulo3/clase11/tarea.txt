@@ -1,0 +1,219 @@
+Insertar al menos 30 registros.
+
+Deben existir como mínimo:
+
+5 vendedores distintos
+5 productos distintos
+4 categorías distintas
+
+------------------------
+
+Ejercicio 1
+
+Mostrar la cantidad total de registros.
+
+Ejercicio 2
+
+Mostrar la cantidad total de productos vendidos.
+
+Ejercicio 3
+
+Mostrar el precio promedio de los productos.
+
+Ejercicio 4
+
+Mostrar el precio más alto.
+
+Ejercicio 5
+
+Mostrar el precio más bajo.
+
+Ejercicio 6
+
+Mostrar la suma total de cantidades vendidas.
+
+Ejercicio 7
+
+Mostrar la facturación total de la empresa.
+
+---------------------------------------------
+
+Ejercicio 8
+
+Mostrar la cantidad de vendedores distintos.
+
+Ejercicio 9
+
+Mostrar la cantidad de categorías distintas.
+
+Ejercicio 10
+
+Mostrar la cantidad de productos distintos.
+
+Ejercicio 11
+
+Mostrar la cantidad de ventas realizadas por cada vendedor.
+
+Ejercicio 12
+
+Mostrar la cantidad total de productos vendidos por cada vendedor.
+
+Ejercicio 13
+
+Mostrar la facturación total por vendedor.
+
+Ejercicio 14
+
+Mostrar el precio promedio de venta por vendedor.
+
+Ejercicio 15
+
+Mostrar la cantidad de ventas por categoría.
+
+Ejercicio 16
+
+Mostrar la cantidad total vendida por categoría.
+
+Ejercicio 17
+
+Mostrar la facturación por categoría.
+
+Ejercicio 18
+
+Mostrar el precio promedio por categoría.
+
+Ejercicio 19
+
+Mostrar el producto más caro dentro de cada categoría.
+
+Ejercicio 20
+
+Mostrar el producto más barato dentro de cada categoría.
+
+----------------------------------------------------------
+
+Ejercicio 21
+
+Mostrar las ventas agrupadas por vendedor y categoría.
+
+Ejercicio 22
+
+Mostrar la cantidad vendida por vendedor y categoría.
+
+Ejercicio 23
+
+Mostrar la facturación por vendedor y categoría.
+
+Ejercicio 24
+
+Mostrar el promedio de precio por vendedor y categoría.
+
+Ejercicio 25
+
+Mostrar la cantidad de operaciones realizadas por cada vendedor en cada categoría.
+
+------------------------------------------------------------------------------------
+
+Ejercicio 26
+
+Mostrar los vendedores que hayan vendido más de 20 unidades.
+
+Ejercicio 27
+
+Mostrar las categorías que tengan más de 5 ventas.
+
+Ejercicio 28
+
+Mostrar los vendedores cuya facturación sea superior a $500.000.
+
+Ejercicio 29
+
+Mostrar las categorías cuya facturación sea superior a $1.000.000.
+
+Ejercicio 30
+
+Mostrar los vendedores cuyo promedio de precio sea superior a $50.000.
+
+Ejercicio 31
+
+Mostrar las categorías cuyo promedio de precio sea superior a $100.000.
+
+Ejercicio 32
+
+Mostrar los vendedores que hayan realizado más de 3 ventas.
+
+Ejercicio 33
+
+Mostrar las categorías con más de 2 productos vendidos.
+
+Ejercicio 34
+
+Mostrar las combinaciones vendedor-categoría cuya facturación supere los $200.000.
+
+Ejercicio 35
+
+Mostrar los vendedores cuya cantidad promedio vendida sea mayor a 4 unidades.
+
+--------------------------
+
+Ejercicio 36
+
+Mostrar la facturación por vendedor ordenada de mayor a menor.
+
+Ejercicio 37
+
+Mostrar la facturación por categoría ordenada de mayor a menor.
+
+Ejercicio 38
+
+Mostrar la cantidad vendida por vendedor ordenada de mayor a menor.
+
+Ejercicio 39
+
+Mostrar el promedio de precios por categoría ordenado de mayor a menor.
+
+Ejercicio 40
+
+Mostrar la cantidad de ventas por vendedor ordenada de mayor a menor.
+
+-----------------------------------------------
+
+Ejercicio 41
+
+Mostrar el vendedor con mayor facturación.
+
+Ejercicio 42
+
+Mostrar la categoría con mayor facturación.
+
+Ejercicio 43
+
+Mostrar los tres vendedores con mayor facturación.
+
+Ejercicio 44
+
+Mostrar las tres categorías con mayor facturación.
+
+Ejercicio 45
+
+Mostrar los tres vendedores con más ventas realizadas.
+
+Ejercicio 46
+
+Mostrar las tres categorías con más productos vendidos.
+
+Ejercicio 47
+
+Mostrar los cinco productos con mayor precio promedio.
+
+Ejercicio 48
+
+Mostrar los cinco productos con menor precio promedio.
+
+Ejercicio 49
+
+Mostrar el vendedor con mayor cantidad total vendida.
+
+Ejercicio 50
+
+Mostrar el vendedor con el precio promedio más alto.
