@@ -1,0 +1,17 @@
+Ejercicio 1
+
+Crear una base llamada:
+
+escuela.db 
+
+Crear tabla:
+
+Alumnos
+
+Columnas:
+id
+nombre
+edad
+nota
+
+Y al menos 10 alumnos
