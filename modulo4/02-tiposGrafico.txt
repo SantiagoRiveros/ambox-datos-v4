@@ -1,0 +1,80 @@
+Grafico de lineas:
+¿Cuando usarlo?
+Cuando queremos mostrar evolucion.
+
+Ejemplos:
+    -Ventas por Mes
+    -Temperatura por dia
+    -Visitantes por año
+Siempre son cosas que tienen que ver con evolucion y/o transcurso del tiempo.
+
+sintaxis:
+    plt.plot(EJE_X, EJE_Y)
+
+------------------------------------    
+
+Grafico de barras
+¿Cuando usarlo?
+Para comparar categorias
+
+Ejemplos:
+    -Ventas por producto
+    -Alumnos por curso
+    -Visitantes por pais
+
+sintaxis:
+    plt.bar(EJE_X, EJE_Y)
+
+------------------------------------    
+
+Histograma
+¿Cuando usarlo?
+Es para estudiar Distribuciones
+
+Ejemplos:
+    -Edades
+    -Salarios
+    -Notas
+    -Temperaturas
+
+Agrupa valores similares y muestra su frecuencia y distribucion
+
+Permite responder:
+    -¿Dónde se concentran los datos?
+    -¿Hay valores extremos?
+    -¿La distribución es uniforme?
+
+sintaxis:
+    plt.hist(VARIABLE)
+
+------------------------------------   
+
+Grafico de dispersion - Scatterplot
+¿Cuando usarlo?
+Cuando queremos estudiar relaciones entre variables.
+
+Ejemplos:
+    -Temperatura vs Ventas
+    -Edad vs Salario
+    -Horas estudiadas vs Notas
+
+sintaxis:
+    plt.scatter(EJE_X, EJE_Y)
+
+------------------------------------   
+
+Grafico de torta (Pie)
+¿Para que sirve?
+Para mostrar proporciones
+Muestra porcentajes del total
+
+Cuando NO usarlo:
+    Cuando hay mas de 6 categorias, es super dificil de leer
+
+
+Situación	                Gráfico
+Evolución temporal	        Línea
+Comparación	                Barras
+Distribución	            Histograma
+Relación	                Scatter
+Proporciones	            Circular

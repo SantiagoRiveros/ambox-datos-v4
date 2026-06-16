@@ -39,6 +39,8 @@ Solo por hoy, vamos a usar SQLite
 -Es simple para aprender
 
 
+
+
 cursor.execute("""
 CREATE TABLE empleados(
     id INTEGER PRIMARY KEY,

@@ -13,6 +13,7 @@ cursor = conexion.cursor()
 
 # LA query la deje en el .txt
 
+
 # Cuando ya ecutamos un script, lo comentamos seleccionandolo y tocando:
 # Alt + Shift + A, para comentarlo, porque la tabla ya se creo
 
@@ -23,6 +24,7 @@ conexion.commit()
 # Todo cambio requiere un commit
 
 # Insertarle datos
+
 
 # Deje la query en el txt
 

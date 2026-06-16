@@ -1,0 +1,47 @@
+Hasta ahora aprendimos a:
+    -Cargar datos
+    -Limpiarlos
+    -Transformarlos
+    -Analizarlos
+Pero un problema aun sigue existiendo.
+¿Como mostramos los resultados?
+No siempre es facil interpretar una tabla con cientos, miles o millones de filas.
+
+Mes             Ventas
+Enero           15000
+Febrero         18000
+Marzo           22000
+Abril           25000
+
+Puede entenderse.
+Pero si tenemos 500 registros(o mas) puede complicarse
+Para eso existen los graficos.
+
+
+¿Que es la visualizacion de datos?
+Es la representacion grafica de la informacion para facilitar:
+    -Comprension
+    -Analisis
+    -Comunicacion
+    -Deteccion de patrones
+    -Deteccion de anomalias
+
+¿Porque son importantes los graficos?
+Permiten descubrir:
+    -Tendencias
+    -Correlaciones
+    -Comportamientos
+    -Valores Atipicos
+    -Distribuciones
+
+Para instalar matplotlib -> pip install matplotlib
+
+Todo grafico cuenta con 2 cosas principales:
+
+EJE X -> Es el eje horizontal, es decir el que va de izquierda a derecha.
+
+EJE Y -> Eje Vertical, es el que va de abajo hacia arriba
+
+Cuando el analisis es sobre una variable -> Analisis Univariado
+Cuando es con dos -> Bivariado
+Con varias -> Polivariado
