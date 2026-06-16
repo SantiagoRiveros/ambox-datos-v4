@@ -1,0 +1,13 @@
+Realizar con el dataset del titanic:
+
+Exploración de datos.
+Al menos 5 gráficos distintos.
+Interpretar cada gráfico.
+
+Identificar:
+tendencias
+valores extremos
+categorías predominantes
+posibles correlaciones
+
+BASICAMENTE EXPLOREN
