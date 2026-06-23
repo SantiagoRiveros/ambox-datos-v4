@@ -1,0 +1,57 @@
+¿Que es Seaborn?
+
+Es una libreria construida sobre Matplotlib (Pyplot)
+Permite:
+-Hacer graficos mas atractivos
+-Menos Codigo
+-Integracion con pandas.
+-Graficos estadisticos mas avanzados
+
+Como instalar:
+pip install seaborn
+
+Importante -> Cuando usamos Seaborn, tambien usamos Pyplot
+
+Como elegir grafico correcto:
+
+Objetivo                    Grafico
+Distribucion                Histograma
+Comparacion                 Barras
+Relacion                    Scatter
+Correlacion                 Heatmap
+Categorias                  Countplot
+Estadistica descriptiva     Boxplot
+Distribucion detallada      Violinplot
+Tendencias                  Lineplot
+Comparar distribuciones     KDE
+
+
+Ejemplo de barras negras en barplot:
+edades = [18, 19, 20, 21, 22] <- La mayoria de los valores estan cerca entre si
+
+edades = [5, 10, 20, 40, 80] <- La mayoria de los valores estan dispersos
+
+Mediana:
+[1, 2, 3, 4, 5]
+Cual es la mediana? Es el valor del medio, si ordenamos el dataframe de menor a mayor.
+Si no es impar el numero de valores, se toman los dos "del medio" se suman y dividen por 2
+[1, 2, 3, 4, 5, 6] -> Mediana = (3 + 4) / 2 = 3.5
+
+Boxplot:
+
+Linea central = Mediana
+Caja = 50% central de los datos -> Va desde Q1 a Q3
+
+Altura de la caja = Si es alta, los datos estan muy dispérsos
+si es baja, no tanto.
+
+Los "Bigotes" -> Muestran hasta donde llegan los datos normales
+
+IQR = Q3 - Q1
+
+Rango bajo: Q1 - 1.5 * IQR
+Rango alto: Q3 + 1.5 * IQR
+
+TODO LO QUE ESTA FUERA DE ESTO, ES OUTLIER.
+
+Circulos -> Outliers

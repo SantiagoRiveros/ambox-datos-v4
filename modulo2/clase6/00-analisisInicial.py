@@ -46,7 +46,7 @@ print(dataframe.isnull().sum())
 print(dataframe.duplicated().sum())  # Da 0 duplicados
 
 # Vamos a reemplazar el survived 0/1 por yes/no
-dataframe["Survived"] = dataframe["Survived"].map({0: "No", 1: "Yes"})
+# dataframe["Survived"] = dataframe["Survived"].map({0: "No", 1: "Yes"})
 
 print(dataframe["Survived"])
 
@@ -66,4 +66,4 @@ dataframe = dataframe.drop("Ticket", axis=1)
 # Sacamos los decimales "raros" en edad
 dataframe["Age"] = round(dataframe["Age"], 0)
 
-dataframe.to_csv("titanic-corregido.csv", index=False)
+dataframe.to_csv("titanic-corregido2.csv", index=False)
