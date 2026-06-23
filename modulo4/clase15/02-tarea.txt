@@ -1,0 +1,4 @@
+1. Mirar cada uno de los tipos de graficos, e indicar cual es el que no queda claro (O que parte no queda clara)
+
+2. Descarga powerBI en el siguiente link -> https://www.microsoft.com/es-es/download/details.aspx?id=58494
+e instalarlo para el jueves

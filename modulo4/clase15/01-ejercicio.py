@@ -62,3 +62,43 @@ plt.clf()
 sns.violinplot(data=dataframe, x="Sex", y="Age")
 plt.savefig("violinplot.jpg")
 plt.clf()
+
+# KDE
+# Curva suave de distribucion
+
+sns.kdeplot(data=dataframe, x="Age")
+plt.savefig("kdeplot.jpg")
+plt.clf()
+
+# Heatmap
+# visualizar correlaciones
+
+# Primero, agarramos solo las variables numericas.
+corr = dataframe.corr(numeric_only=True)
+
+sns.heatmap(corr, annot=True)
+plt.savefig("heatmap.jpg")
+plt.clf()
+
+
+# Pairplot
+# El mas usado para exploracion rapida.
+# Scatter, histogramas y relaciones
+
+sns.pairplot(dataframe)
+plt.savefig("pairplot.jpg")
+plt.clf()
+
+# Jointplot
+# Relacion y distribucion
+
+sns.jointplot(data=dataframe, x="Age", y="Fare")
+plt.savefig("jointplot.jpg")
+plt.clf()
+
+# Regplot
+# Scatter + Linea de tendencia
+
+sns.regplot(data=dataframe, x="Age", y="Fare")
+plt.savefig("regplot.jpg")
+plt.clf()

@@ -53,5 +53,23 @@ Rango bajo: Q1 - 1.5 * IQR
 Rango alto: Q3 + 1.5 * IQR
 
 TODO LO QUE ESTA FUERA DE ESTO, ES OUTLIER.
-
+ 
 Circulos -> Outliers
+
+Heatmap:
+Valores del -1 al 1
+
+-1 = Correlacion perfectamente negativa
+1 = Correlacion perfectamente positiva
+
+Que significa?
+1 = Significa que si variable A sube por ejemplo 1, variable B deberia subir 1
+-1 = Si A baja 1, B sube 1, o viceversa.
+
+Osea, si es positivo -> Uno sube, el otro tambien
+Si es negativo, uno sube, el otro baja.
+
+Pclass y Fare
+
+Pclass -> 1, 2, 3, cuanto mas bajo el Pclass, osea por ejemplo primera clase, mas alto deberia ser el pasaje.
+Cuanto mas cerca del 0 -> Menos relacion posible tiene.
