@@ -1,0 +1,111 @@
+Power Bi ->
+
+Hasta ahora Aprendimos a:
+    -Trabajar con Python.
+    -Analizar datos con Pandas
+    -Limpiar informacion
+    -Crear Consultas SQL
+    -Visualizar datos con matplotlib y Seaborn.
+
+Sin embargo, en una empresa normalmente no se entrega un script de python al cliente o un gerente.
+Lo que se suele entregar, es un Dashboard (Que puede o no ser interactivo) donde cualquier usuario
+pueda explorar la informacion sin escribir o ejecutar codigo.
+Es decir -> EL QUE NOS PAGA, NO ES TECNICO.
+
+Que es un dashboard?
+Es un panel visual que reune informacion importante mediante graficos, indicadores, y filtros interactivos.
+Su objetivo es permitir que una persona responda preguntas rapidamente.
+
+Por ejemplo:
+    -Cuanto vendimos al mes?
+    -Cual fue el producto mas vendido?
+    -Que sucursal vende mas?
+    -Que categoria genera mayor ganancia?
+
+Con Python, SQL, etc -> Reportes
+Con Power BI -> Dashboard.
+
+Diferencias entre REPORTE y Dashboard
+
+Dashboard                       Reporte 
+interactivo                     Generalmente estatico
+Resume informacion              Presenta gran cantidad de datos 
+Enfocado en KPIs                Enfocado en el detalle
+Permite filtrar                 Suele ser una captura o documento
+Se actualiza automatico         Requiere regenerarse
+
+Para el tecnico -> Reporte 
+Para el NO tecnico -> Dashboard.
+
+¿Porque power bi?
+    -Tiene version gratuita
+    -Se integra facil con Excel.
+    -Es uno de los programas mas utilizados en empresas
+    -Posee una interfaz sencilla
+    -Permite trabajar con millones de registros.
+
+
+¿Que debe tener un buen dashboard?
+    -Debe responder preguntas importantes
+    -No debe mostrar informacion innecesaria
+    -Debe ser simple
+    -Debe ser claro
+    -Debe ser visualmente accesible, o facil de leer.
+
+
+Principios de diseño:
+
+1. Simplicidad
+
+INCORRECTO:
+    -30 graficos
+    -Muchos colores
+    -Demasiados filtros
+
+CORRECTO:
+    -Pocos graficos
+    -Informacion relevante
+    -Espacio suficiente
+
+2. Jerarquia visual:
+
+Lo mas importante debe verse primero.
+
+Generalmente:
+
+KPIs
+ ↓
+Graficos principales
+ ↓
+Tablas
+ ↓
+Detalle
+
+3. Consistencia
+Mantener:
+    -colores
+    -Tipografia
+    -Tamaños
+    -Formato de fechas
+    -Formato de monedas
+
+4. Interactividad
+Permitir:
+    -filtrar
+    -Seleccionar
+    -Navegar
+
+
+¿Que es un KPI?
+KPI significa:
+
+Key performance indicator.
+
+Es un indicador que resume el desempeño.
+
+Ejemplos:
+    -Ventas Totales
+    -Clientes
+    -Ganancias
+    -Ticket Promedio
+    -Cantidad de pedidos
