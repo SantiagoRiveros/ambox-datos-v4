@@ -1,0 +1,145 @@
+Hasta ahora aprendimos a limpiar datos, transformarlos y analizarlos utilizando Pandas.
+
+Sin embargo, cuando un dataset tiene miles de filas, leer números no resulta suficiente.
+
+Los gráficos permiten:
+
+resumir información;
+encontrar patrones;
+detectar errores;
+identificar valores extremos;
+comunicar resultados de manera clara.
+
+Un analista de datos dedica gran parte de su trabajo a crear e interpretar visualizaciones.
+
+------------------------------
+
+¿Qué es una distribución?
+
+Una distribución representa cómo se reparten los valores de una variable.
+
+edades:
+18
+19
+19
+20
+20
+21
+22
+22
+22
+23
+25
+40
+
+-------------------------------------
+
+Histograma
+¿Qué muestra?
+
+La distribución de una variable numérica.
+
+No representa cada dato individualmente.
+
+Agrupa los valores en intervalos llamados bins.
+
+edades:
+18
+18
+19
+20
+20
+20
+21
+22
+23
+24
+25
+35
+40
+
+El histograma mostrará cuántas personas hay entre:
+
+15-20
+20-25
+25-30
+etc.
+
+¿Cuándo usarlo?
+
+Cuando queremos conocer:
+
+distribución;
+concentración;
+dispersión;
+forma de los datos.
+
+------------------------------
+
+Countplot
+
+Cuenta categorías.
+
+---------------------------------
+
+Barplot
+
+Compara promedios.
+
+-----------------------------------
+
+Boxplot
+
+Uno de los gráficos más importantes del análisis exploratorio.
+
+Permite observar:
+
+mediana;
+cuartiles;
+dispersión;
+valores atípicos.
+
+Caja
+
+Contiene el 50% central de los datos.
+
+Línea central
+
+Mediana.
+
+Bigotes
+
+Valores mínimos y máximos sin considerar outliers.
+
+Puntos
+
+Valores atípicos.
+
+---------------------------------------------------------
+
+Scatterplot
+
+Muestra la relación entre dos variables numéricas.
+
+-----------------------------------------------------------
+
+Correlación
+
+La correlación mide la relación entre variables numéricas.
+
+Valores posibles
+
+-1
+
+Correlación negativa perfecta.
+
+0
+
+Sin relación lineal.
+
+1
+
+Correlación positiva perfecta.
+
+annot=True muestra los valores.
+cmap cambia la paleta de colores.
