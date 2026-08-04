@@ -1,0 +1,48 @@
+1- Histograma de edades
+
+-La mayor parte de pacientes tiene menos de 60
+-Existen muchos turnos para niños y jovenes
+-La distribucion no es uniforme
+-Hay pocos pacientes con edades muy avanzadas
+
+2- Countplot de asistencia
+
+-La mayoria asiste a su turno
+-Sin embargo existe un porcentaje considerable de inasistencias que representa una perdida de recursos
+
+3- Countplot de genero
+
+-Las mujeres solicitan mas turnos 
+
+4- Boxplot de edades y asistencia
+
+-Suelen faltar mas los mas jovenes.
+-Hay edades extremas, se recomienda revision si son outliers o errores de carga
+
+5- SMS_received vs No-show
+
+- Recibir un SMS no garantiza que el paciente asista.
+- Aunque los recordatorios pueden ayudar, otros factores pueden influir en la asistencia
+
+6- Hipertension y diabetes
+
+-La hipertension parece influir cuando es positiva, en la inasistencia, los pacientes con hipertension
+suelen faltar mas a las consultas, no parece influir la diabetes en esto.
+
+7- Asistencia y genero
+
+-No parece haber relacion entre el genero y la asistencia.
+-Si bien hay mas mujeres con inasistencias, tambien son un numero mayor de pacientes, por lo cual en proporcion
+pareciera que los hombres faltan mas
+
+-- Conclusion --
+
+El analisis exploratorio permitio conocer la estructura del dataset y comprender el comportamiento de los pacientes.
+Se observo quie la mayoria de los turnos corresponden a personas menores de 60 años y que la mayor parte de los pacientes asisten a su consulta.
+No se encontraron correlaciones fuertes entre las variables numericas, lo que sugiere que la inasistencia depende de multiples factores.
+Ademas, se identificaron algunos valores atipicos en la variable edad, que deben revisarse antes de realizar analisis mas avanzados.
+
+Proximos pasos:
+
+-Analizar si la fecha en la que se agendo el turno vs la fecha del turno, tienen que ver con la asistencia.
+-Analizar si el barrio del paciente esta alejado del centro asistencial, para evaluar si la distancia tiene relacion con la inasistencia.
