@@ -1,0 +1,219 @@
+¿Qué es el EDA?
+
+El Análisis Exploratorio de Datos (Exploratory Data Analysis - EDA) es el proceso de examinar un conjunto de datos para comprender su estructura, 
+calidad y comportamiento antes de realizar análisis más complejos o construir modelos predictivos.
+
+El objetivo del EDA no es responder una única pregunta, sino descubrir información que inicialmente no conocemos.
+
+Durante un EDA buscamos:
+
+-Conocer el dataset.
+-Detectar errores.
+-Identificar datos faltantes.
+-Encontrar relaciones entre variables.
+-Detectar valores atípicos.
+-Descubrir patrones.
+-Formular hipótesis.
+
+¿Por qué es importante?
+
+Un analista rara vez recibe un dataset perfecto. Antes de responder preguntas de negocio debe verificar que los datos sean confiables.
+
+Importar datos
+        ↓
+Conocer el dataset
+        ↓
+Revisar estructura
+        ↓
+Buscar nulos
+        ↓
+Buscar duplicados
+        ↓
+Analizar variables
+        ↓
+Detectar outliers
+        ↓
+Encontrar patrones
+        ↓
+Extraer conclusiones
+
+---------------------------------
+
+Paso 1 - Conocer el dataset
+
+Ver las primeras filas
+
+df.head()
+
+Permite verificar:
+
+-columnas;
+-tipos de datos;
+-formato general.
+
+Ver las últimas filas
+df.tail()
+
+Obtener información general
+df.info()
+
+Estadísticas descriptivas
+df.describe()
+
+count -> conteo
+mean -> promedio
+std -> desviacion estandar
+min -> minimo
+25% -> cuartiles
+50%
+75%
+max -> maximo
+
+---------------------------------
+
+Paso 2 - Comprender las variables
+
+Preguntar para cada columna:
+
+-¿Es numérica?
+-¿Es categórica?
+-¿Es una fecha?
+-¿Es un identificador?
+
+Columna                     Tipo
+price                       Numérica
+freight_value               Numérica
+customer_state              Categórica
+order_status                Categórica
+order_purchase_timestamp    Fecha
+order_id                    identificador
+
+---------------------------------
+
+Paso 3 - Distribuciones
+
+sns.histplot(
+    data=df,
+    x="price",
+    kde=True
+)
+
+Preguntas:
+
+¿La mayoría de los productos son baratos?
+¿Hay muchos productos caros?
+¿La distribución es simétrica?
+
+---------------------------------
+
+Paso 4 - Detectar valores extremos
+
+Boxplot
+sns.boxplot(
+    data=df,
+    y="price"
+)
+
+¿Qué es un outlier?
+
+Es un dato que se aleja considerablemente del resto.
+
+Ejemplos:
+
+-un producto de $50.000 cuando la mayoría cuesta $100;
+-una edad de 150 años;
+-un envío con costo negativo.
+
+¿Siempre debe eliminarse?
+
+No.
+
+Puede representar:
+
+-un error;
+-un caso excepcional;
+-un dato completamente válido.
+
+---------------------------------
+
+Paso 5 - Buscar patrones
+
+Ejemplo
+
+Ventas por categoría.
+
+ventas = (
+    df.groupby("product_category_name_english")["Total_Venta"]
+      .sum()
+      .sort_values(ascending=False)
+)
+
+print(ventas.head())
+
+Preguntas:
+
+-¿Qué categorías venden más?
+-¿Qué categorías venden menos?
+
+---------------------------------
+
+Paso 6 - Comparar grupos
+
+sns.barplot(
+    data=df,
+    x="customer_state",
+    y="Total_Venta"
+)
+
+Responder:
+
+¿Qué estados generan mayores ingresos?
+
+---------------------------------
+
+Paso 7 - Analizar relaciones
+
+sns.scatterplot(
+    data=df,
+    x="price",
+    y="freight_value"
+)
+
+Preguntas:
+
+¿Los productos más caros tienen envíos más costosos?
+¿Existe alguna tendencia?
+
+---------------------------------
+
+Paso 8 - Correlación
+
+corr = df.select_dtypes("number").corr()
+
+sns.heatmap(
+    corr,
+    annot=True,
+    cmap="coolwarm"
+)
+
+---------------------------------
+
+Detectar anomalías con IQR
+Una forma clásica de detectar posibles outliers es utilizar el rango intercuartílico (IQR).
+
+Q1 = df["price"].quantile(0.25)
+Q3 = df["price"].quantile(0.75)
+
+IQR = Q3 - Q1
+
+limite_inferior = Q1 - 1.5 * IQR
+limite_superior = Q3 + 1.5 * IQR
+
+outliers = df[
+    (df["price"] < limite_inferior) |
+    (df["price"] > limite_superior)
+]
+
+print(outliers)
+
+print(len(outliers))
